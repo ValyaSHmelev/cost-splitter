@@ -7,8 +7,6 @@ function getParticipants() {
 
 function renderTable() {
 
-    // if (table) table.destroy()
-
     const defaultColumns = [
         {
             title: "Чекбокс",
@@ -97,7 +95,6 @@ function renderTable() {
             headerWordWrap: true,
             hozAlign: "center",
             maxWidth: 400,
-            // width: 150,
             editorParams: {
                 selectContents: false,
                 search: true,
